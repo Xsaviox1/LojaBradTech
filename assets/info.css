@@ -1,0 +1,40 @@
+
+.containerInfo .info, .containerInfo p{
+    color: white;
+}
+.containerInfo h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.containerInfo h2{
+    font-weight: 400;
+}
+.containerInfo .info .texto{
+    width: 70%;
+    padding-top: 2vh;
+    font-weight: 100;
+}
+.containerInfo .preco{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.containerInfo .compra{
+    display: flex ;
+    padding-top: 4vh;
+    align-items: center;
+}
+.containerInfo button{
+    margin-right: 2vw;
+}
+.foto img{
+    width: 20vw;
+    height: 20vw;
+}
+.containerVenda{
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+
+

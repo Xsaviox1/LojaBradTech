@@ -1,0 +1,134 @@
+.container2 .imagem{
+    width: 70px;
+    height: 70px;
+    background: linear-gradient( 108.4deg,  rgba(147,13,161,1) 39.2%, rgba(14,11,194,1) 83.6% );
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 3px;
+    border-color: rgba(147,13,161,1);
+}
+.container2 img{
+    width: 55px;
+    height: 55px;
+}
+.container2 .sobre .campo{
+    display: flex;
+    align-items: center;
+    padding-top: 4vh
+}
+.container2 .sobre .campo p{
+    width: 40%;
+    padding-top: 0.1vh;
+    font-size: 11px;
+}
+.container2 .sobre .texto{
+    padding-left: 1vw;
+}
+.container2 .containerTexto h3{
+    color: gray;
+    padding-bottom: 1vh;
+}
+.container2 .containerTexto h2{
+    width: 45%;
+}
+.containerImagem img{
+    width: 13vw;
+    height: 13vw;
+}
+.containerImagem {
+    background-image: url(./models/back.png);
+    border-radius: 100px;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formatacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container3 .backImg{
+    background-image: radial-gradient( circle 357px at 51.6% 45.3%,  rgba(195,185,225,1) 0%, rgba(184,175,213,1) 90% );
+    width: 13vw;
+    height: 13vw;
+    border-radius: 10% 50% / 80% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container3 .backImg img{
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+}
+.container3 .containerFuncoes{
+    padding-left: 12vw;
+}
+.container3 .containerSeparacao{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.container3 h3{
+    color: gray;
+}
+.container3 p{
+    color: gray;
+}
+.container3 .secaoFuncoes img{
+    width: 2vw;
+    height: 2vw;
+    
+}
+.container3 .textoFuncoes{
+    text-align: center;
+    width: 60%;
+    padding-left: 2.5vw;
+}
+.container3 .secaoFuncoes{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-auto-rows: 60%;
+    grid-gap: 1% 5%;
+    padding: 4% 0%;
+    max-width: 60%;
+    height: 60%;
+    align-items: center;
+    justify-items: center;
+}
+.container3 .funcao{
+    background-color: white;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 7vw;
+    width: 14vw;
+}
+.container3 .imagem{
+    background: linear-gradient( 108.4deg,  rgba(147,13,161,1) 39.2%, rgba(14,11,194,1) 83.6% );
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px;
+    border-color: rgba(147,13,161,1);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.container3{
+    padding-top: 10vh;
+}
+.container3 h4{
+    font-size: 0.7vw;
+}

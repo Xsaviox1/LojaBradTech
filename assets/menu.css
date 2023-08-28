@@ -1,0 +1,28 @@
+header nav{
+   padding-top: 2.5vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header nav a{
+    color: white;
+}
+header nav .logo img{
+    width: 110px;
+    height: 59.9744898px;
+}
+.cabecalho-link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    align-items: center;
+    font-size: 0.9vw;
+}
+.cabecalho-link a{
+    opacity: 0.8;
+}
+.cabecalho-link a:hover{
+    opacity: 1;
+    transition: 0.7s all;
+}
+
