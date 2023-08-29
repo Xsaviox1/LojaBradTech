@@ -1,9 +1,8 @@
-
 .containerInfo .info, .containerInfo p{
     color: white;
 }
 .containerInfo h1{
-    font-size: 45px;
+    font-size: 2.5vw;
     font-weight: 700;
 }
 .containerInfo h2{
@@ -11,12 +10,13 @@
 }
 .containerInfo .info .texto{
     width: 70%;
+    /*font-size: 45px;*/
     padding-top: 2vh;
     font-weight: 100;
 }
 .containerInfo .preco{
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 .containerInfo .compra{
     display: flex ;
@@ -35,6 +35,18 @@
     display: flex;
     align-items: center;
 }
-
-
-
+.containerVenda p{
+    font-size: 1vw;
+}
+.containerVenda h2{
+    font-size: 1.2vw;
+}
+.containerTexto h3{
+    font-size: 1vw;
+}
+.containerTexto h2{
+    font-size: 2.5vw;
+}
+.campo h3{
+    font-size: 1.3vw;
+}

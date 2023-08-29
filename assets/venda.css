@@ -72,10 +72,16 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 2vw;
     padding: 0 3% 0 3%;
+    justify-items: center;
 }
 .card h3{
  color: black;
+}
+.backQuatro{
+    height: calc(100vh - 10%);
+    padding-top: 5vh;
+    justify-items: center;
 }

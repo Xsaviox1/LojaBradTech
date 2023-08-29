@@ -8,6 +8,7 @@
     align-items: center;
     border: 3px;
     border-color: rgba(147,13,161,1);
+    padding: 0 1vw;
 }
 .container2 img{
     width: 55px;
@@ -21,7 +22,7 @@
 .container2 .sobre .campo p{
     width: 40%;
     padding-top: 0.1vh;
-    font-size: 11px;
+    font-size: 60%;
 }
 .container2 .sobre .texto{
     padding-left: 1vw;
