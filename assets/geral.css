@@ -87,6 +87,24 @@ button:hover{
         transform: scale(0.90);
     }
 }
+@media screen and (max-width:1640px){
+    .container3 .containerFuncoes {
+        padding-left: 0;
+    }
+    .container3 .funcao{
+        height: 70px !important;
+        width: 100px !important;
+    }
+    @media screen and (max-height:1000px){
+        .back1{
+            height: 70vh;
+        }
+        .container{
+            height: 75vh;
+        }
+        
+    }
+}
 @media screen and (max-width:1400px){
     .container2 .containerImagem{
         display: none;
@@ -98,16 +116,26 @@ button:hover{
         height: 80vh;
     }
 }
+@media screen and (max-width:1240px){
+    @media screen and (max-height:1000px){
+        .back1{
+            height: 50vh;
+        }
+        .container{
+            height: 55vh;
+        }
+    }
+}
 @media screen and (max-width:1065px) {
     .back1{
-        height: 70vh;
+        height: 35vh;
     }
     .container{
-        height: 75vh;
+        height: 40vh;
     }
     nav button, .containerVenda button{
-    height: 3vh;
-    width: 6vw;
+    height: 4vh;
+    width: 6.5vw;
     font-size: 0.6vw;
     }
     nav button img, .containerVenda button img{
@@ -119,17 +147,26 @@ button:hover{
     .container3 .backImg{
         display: none!important;
     }
+    .container3{
+        justify-content: center;
+    }
     
-    .container3 .containerFuncoes{
-        padding-left: 20vw!important;
+    
+    @media screen and (max-height:1000px){
+        .back1{
+            height: 53vh;
+        }
+        .container{
+            height: 55vh;
+        }
     }
 }
 @media screen and (max-width:750px) {
     .back1{
-        height: 55vh;
+        height: 38vh;
     }
     .container{
-        height: 60vh;
+        height: 40vh;
     }
     nav button, .containerVenda button{
         height: 2vh;
@@ -140,14 +177,24 @@ button:hover{
         width: 1.2vw;
         height: 1.2vw;
     }
+    .funcao h4{
+        font-size: 200px;
+    }
+    .container3 .funcao h4 {
+        font-size: 10px;
+      }
+      .formatacao .sobre .containerTexto h3{
+        font-size: 3vw;
+    }
     /*menu e info*/
 }
+
 @media screen and (max-width:580px) {
     .back1{
-        height: 42vh;
+        height: 33vh;
     }
     .container{
-        height: 47vh;
+        height: 35vh;
     }
     /*menu e info*/
     .container3 p{
@@ -156,16 +203,30 @@ button:hover{
     .sociais, .bold{
         display: none;
     }
+    .container3 .textoFuncoes {
+        text-align: center;
+        width: 100% !important; 
+    }
+    .funcao h4{
+        font-size: 16px;
+    }
 }
-@media screen and (max-width:440px) {
+@media screen and (max-width:500px) {
     .back1{
-        height: 32vh;
+        height: 26vh;
     }
     .container{
-        height: 37vh;
+        height: 30vh;
+    }
+    .containerInfo .compra{
+        padding-top: 100px;
+    }
+    .foto img{
+        display: none;
     }
 }
-
 .container4 {
     margin-bottom: 5vh; /* Adicione uma margem inferior para afastar a div do footer */
 }
+
+
